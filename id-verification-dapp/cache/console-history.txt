@@ -1,0 +1,8 @@
+exit();
+exit()
+exit
+await registry.getIdentity("stud002");
+await registry.getIdentity("stud001");
+const registry = await ethers.getContractAt("DIDRegistry", "0xYourAddress");
+await registry.getIdentity("stud001");
+const registry = await ethers.getContractAt("DIDRegistry", "0xYourAddress");
