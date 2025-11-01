@@ -2,17 +2,128 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#1a1a1a" />
     <meta
       name="description"
-      content="Decentralized Identity Verification DApp"
+      content="Decentralized Identity Verification DApp - Blockchain meets Trust"
     />
-    <title>Identity Verification DApp</title>
+    <title>Decentralized Identity Verification | SYNCHER Labs</title>
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <style>
+      /* Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background-color: #f7f8fa;
+        color: #222;
+        line-height: 1.6;
+      }
+
+      header {
+        background: linear-gradient(90deg, #002b5c, #004080);
+        color: white;
+        padding: 1rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      header h1 {
+        font-size: 1.6rem;
+        letter-spacing: 0.5px;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 1.5rem;
+        font-weight: 500;
+        transition: opacity 0.2s;
+      }
+
+      nav a:hover {
+        opacity: 0.7;
+      }
+
+      .hero {
+        text-align: center;
+        padding: 4rem 2rem;
+        background: linear-gradient(180deg, #e9eef5, #ffffff);
+      }
+
+      .hero h2 {
+        color: #002b5c;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+
+      .hero p {
+        color: #333;
+        max-width: 700px;
+        margin: 0 auto;
+        font-size: 1.1rem;
+      }
+
+      #root {
+        max-width: 1200px;
+        margin: 3rem auto;
+        padding: 2rem;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+      }
+
+      footer {
+        text-align: center;
+        padding: 2rem;
+        background: #002b5c;
+        color: white;
+        font-size: 0.9rem;
+        margin-top: 3rem;
+      }
+
+      footer a {
+        color: #66ccff;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
+
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <header>
+      <h1>Identity Verification DApp</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Docs</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Decentralized Identity, Reimagined</h2>
+      <p>
+        Verify, register, and protect your identity using blockchain and IPFS —
+        ensuring security, transparency, and trust for every digital user.
+      </p>
+    </section>
+
     <div id="root"></div>
+
+    <footer>
+      © 2025 CODEVERSE-Technologiees | Built with ❤️ using Ethereum & IPFS |
+      <a href="#">Privacy Policy</a>
+    </footer>
   </body>
 </html>
