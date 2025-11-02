@@ -3,14 +3,14 @@ import { ethers } from "ethers";
 import { create } from "ipfs-http-client";
 
 // TODO: replace with your deployed contract address after running deploy script
-const CONTRACT_ADDRESS = "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266";
+const CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 const ABI = [
   "function registerIdentity(string did, string ipfsHash) external",
   "function getIdentity(string did) external view returns (address owner, string ipfsHash, bool verified, address verifier, uint256 timestamp)"
 ];
 
 
-const ipfsClient = create({ url: "http://localhost:5001" });
+const ipfsClient = create({ url: "http://127.0.0.1:5001" });
 
 
 function App() {

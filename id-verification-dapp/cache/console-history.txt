@@ -1,3 +1,5 @@
+await registry.getIdentity("did:student:001");
+const registry = await ethers.getContractAt("DIDRegistry", "0xYourAddress");
 exit();
 exit()
 exit
