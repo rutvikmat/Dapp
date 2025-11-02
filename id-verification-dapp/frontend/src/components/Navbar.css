@@ -1,0 +1,21 @@
+.navbar {
+  background: linear-gradient(90deg, #1a1a1a 0%, #3a3a3a 100%);
+  color: white;
+  border-bottom: 3px solid #f36f21;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #f36f21 !important;
+}
+
+.nav-link {
+  color: #ddd !important;
+  margin-left: 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f36f21 !important;
+}
